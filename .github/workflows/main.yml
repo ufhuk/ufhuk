@@ -22,7 +22,7 @@ jobs:
       run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -Name "UserAuthentication" -Value 1
 
     - name: Set Password for runneradmin
-      run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
+      run: Set-LocalUser -Name "miqalexx" -Password (ConvertTo-SecureString -AsPlainText "ufukufhuk" -Force)
 
     - name: Install Localtunnel
       run: npm install -g localtunnel
